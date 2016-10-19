@@ -1,0 +1,19 @@
+YII2实战教程
+http://www.manks.top/document/yii2-blog-description.html
+
+http://www.yiichina.com/tutorial/876
+
+安装 AdminLTE和 yii2-admin
+
+一、安装 AdminLTE 渲染后台
+
+1、利用 AdminLTE 渲染后台模板
+
+AdminLTE 是一个完全响应管理模板。基于 Bootstrap3 框架，易定制模板。适合多种屏幕分辨率，从小型移动设备到大型台式机。内置了多个页面，包括仪表盘、邮箱、日历、锁屏、登录及注册、404错误、500错误等页面。
+
+进入 cmd，切换到 advanced 目录，输入
+
+composer require dmstr/yii2-adminlte-asset "2.*"
+复制 vendor/dmstr/yii2-adminlte-asset/example-views/yiisoft/yii2-app 到 backend/views/，需要覆盖的则覆盖
+
+2、进入后台 127.0.0.1/advanced/backend/web/ 查看效果
