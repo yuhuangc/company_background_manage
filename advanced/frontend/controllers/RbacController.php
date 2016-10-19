@@ -13,6 +13,10 @@ use Yii;
 use yii\web\Controller;
 
 class RbacController extends Controller{
+
+    /**
+     * 权限管理初始化
+     */
     public function actionInit ()
     {
         $auth = Yii::$app->authManager;
