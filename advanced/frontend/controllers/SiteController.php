@@ -16,7 +16,7 @@ use frontend\models\ContactForm;
 /**
  * Site controller
  */
-class SiteController extends Controller
+class SiteController extends BaseController
 {
     /**
      * @inheritdoc
@@ -50,6 +50,7 @@ class SiteController extends Controller
     }
 
     /**
+     * 捕捉到系统错误后进入
      * @inheritdoc
      */
     public function actions()
@@ -210,6 +211,7 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
 
     public function actionBlog()
     {

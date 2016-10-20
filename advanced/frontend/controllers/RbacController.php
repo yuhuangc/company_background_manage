@@ -21,23 +21,35 @@ class RbacController extends Controller{
     {
         $auth = Yii::$app->authManager;
 
-        // 一、添加 "/blog/index" 权限
-        $permissionName = '/blog/index';
-        $blogIndex = $auth->createPermission($permissionName);
-        $blogIndex->description = '创建了 ' . $permissionName. ' 权限';
-        $auth->add($blogIndex);
+        // 一、添加 权限
+        $permissionName = 'site/blog';
+        $permission = $auth->getPermission($permissionName);
+        if(empty($permission)){
+            $permission = $auth->createPermission($permissionName);
+            $permission->description = '创建了 ' . $permissionName. ' 权限';
+            $auth->add($permission);
+        }
 
-        // 二、创建一个角色blogManage，并为该角色分配"/blog/index"权限
+        // 二、创建一个角色blogManage，并为该角色分配权限
         $roleName = '博客管理员';
-        $blogManage = $auth->createRole($roleName);
-        $blogManage->description = '创建了 ' . $roleName. ' 角色';
-        $auth->add($blogManage);
+        $roleManage = $auth->getRole($roleName);
+        if(empty($roleManage)) {
+            $roleManage = $auth->createRole($roleName);
+            $roleManage->description = '创建了 ' . $roleName. ' 角色';
+            $auth->add($roleManage);
+        }
 
-        //三、将权限赋给角色
-        $auth->addChild($blogManage, $blogIndex);
+        //三、将权限赋给角
+        if(!$auth->hasChild($roleManage,$permission)){
+            $auth->addChild($roleManage, $permission);
+        }
 
-        //四、为用户 test1（改用户的uid=1） 分配角色 "博客管理" 权限
-        $auth->assign($blogManage, 1); // 1是test1用户的uid
+        //四、(角色赋给用户)为用户 test1（改用户的uid=1） 分配角色 "博客管理" 权限
+        $userId = 1;
+        $assignment = $auth->getAssignment($roleName,$userId);
+        if(empty($assignment)){
+            $auth->assign($roleManage, $userId);
+        }
     }
 
     #region 权限控制RBAC
