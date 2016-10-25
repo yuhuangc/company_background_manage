@@ -5,7 +5,7 @@ namespace backend\controllers;
 use backend\models\SignupForm;
 use Yii;
 
-class UserBackendController extends \yii\web\Controller
+class UserBackendController extends BaseController
 {
     public function actionIndex()
     {
