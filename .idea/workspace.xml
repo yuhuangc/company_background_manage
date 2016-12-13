@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6592c2d-4589-452b-86f0-2019e5d04319" name="Default" comment="php">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/common/config/params.php" afterPath="$PROJECT_DIR$/advanced/common/config/params.php" />
+    <list default="true" id="c6592c2d-4589-452b-86f0-2019e5d04319" name="Default" comment="添加phpQuery">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advanced/backend/views/user-backend/user-list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/common/models/LoginForm.php" afterPath="$PROJECT_DIR$/advanced/common/models/LoginForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/backend/controllers/RbacController.php" afterPath="$PROJECT_DIR$/advanced/backend/controllers/RbacController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/frontend/controllers/RbacController.php" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/RbacController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" afterPath="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php" afterPath="$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/frontend/models/UserFrontend.php" afterPath="$PROJECT_DIR$/advanced/frontend/models/UserFrontend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/backend/views/layouts/left.php" afterPath="$PROJECT_DIR$/advanced/backend/views/layouts/left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced/frontend/config/main.php" afterPath="$PROJECT_DIR$/advanced/frontend/config/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="company_ background_manage.iws" />
@@ -32,51 +40,70 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.96875" vertical-offset="1911" max-vertical-offset="2576">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebSiteCollectionController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.023006136" vertical-offset="475" max-vertical-offset="1334">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state vertical-scroll-proportion="-4.09375" vertical-offset="490" max-vertical-offset="1679">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-                <element signature="e#172#185#0#PHP" expanded="true" />
+                <element signature="e#268#1389#0#PHP" expanded="false" />
+                <element signature="e#1430#1585#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-local.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/common/config/main-local.php">
+      <file leaf-file-name="UserBackendController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.625" vertical-offset="0" max-vertical-offset="897">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.27669173" vertical-offset="138" max-vertical-offset="966">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/common/config/params.php">
+      <file leaf-file-name="user-list.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/views/user-backend/user-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4375" vertical-offset="0" max-vertical-offset="276">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state vertical-scroll-proportion="-1.6875" vertical-offset="1165" max-vertical-offset="2024">
+              <caret line="53" column="103" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1481621957489" expanded="true" signature="643:4981" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="653:753" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="808:4950" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="896:4939" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="926:1492" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="965:1287" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="1509:3311" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="1532:3292" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="1673:3265" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="1705:2498" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="1927:1939" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="2094:2106" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="2270:2282" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="2438:2450" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="2530:2991" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="2641:2924" placeholder="..." />
+                <marker date="1481621957489" expanded="true" signature="3023:3236" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppAsset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/assets/AppAsset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.90625" vertical-offset="0" max-vertical-offset="667">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/backend/views/site/login.php">
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/left.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6875" vertical-offset="521" max-vertical-offset="1725">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state vertical-scroll-proportion="28.8125" vertical-offset="1083" max-vertical-offset="1748">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -92,7 +119,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/advanced/backend/web/.htaccess" />
-        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/advanced/说明.txt" />
         <option value="$PROJECT_DIR$/advanced/environments/dev/common/config/main-local.php" />
         <option value="$PROJECT_DIR$/advanced/backend/config/main.php" />
@@ -102,25 +128,37 @@
         <option value="$PROJECT_DIR$/advanced/backend/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/advanced/common/config/main.php" />
         <option value="$PROJECT_DIR$/advanced/说明(AdminLTE).txt" />
-        <option value="$PROJECT_DIR$/advanced/frontend/controllers/RbacController.php" />
         <option value="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/advanced/frontend/controllers/BaseController.php" />
-        <option value="$PROJECT_DIR$/advanced/frontend/config/main.php" />
         <option value="$PROJECT_DIR$/advanced/.gitignore" />
-        <option value="$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/left.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/rbac/index.php" />
-        <option value="$PROJECT_DIR$/advanced/backend/controllers/RbacController.php" />
         <option value="$PROJECT_DIR$/advanced/common/components/PermissionBehavior.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/site/login.php" />
-        <option value="$PROJECT_DIR$/advanced/common/models/LoginForm.php" />
         <option value="$PROJECT_DIR$/advanced/common/config/params.php" />
         <option value="$PROJECT_DIR$/advanced/common/config/main-local.php" />
-        <option value="$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php" />
         <option value="$PROJECT_DIR$/advanced/vendor/phpQuery/phpQuery.php" />
         <option value="$PROJECT_DIR$/advanced/vendor/ezyang/htmlpurifier/library/HTMLPurifier.auto.php" />
         <option value="$PROJECT_DIR$/advanced/backend/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/config/main.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/models/UserFrontend.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/controllers/RbacController.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/models/SignupForm.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/advanced/common/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/web/assets/b3bc25f0/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/advanced/backend/web/assets/b3bc25f0/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/build/less/AdminLTE.less" />
+        <option value="$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/RbacController.php" />
+        <option value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/Yii.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/left.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/web/assets/b3bc25f0/js/tes.js" />
+        <option value="$PROJECT_DIR$/advanced/backend/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/user-backend/user-list.php" />
       </list>
     </option>
   </component>
@@ -179,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,6 +241,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +284,7 @@
       <recent name="E:\yii_localhost_project\company_ background_manage\advanced\frontend\views" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Web Application.frontend">
+  <component name="RunManager" selected="PHP Web Application.backend">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/company_ background_manage/advanced/vendor/almasaeed2010/adminlte/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -281,7 +319,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="backend" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="backend" start_url="/user-backend/index">
+    <configuration default="false" name="backend" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="backend" start_url="/user-backend/user-list">
       <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
       <method />
@@ -292,9 +330,9 @@
       <method />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.backend" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.frontend" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.backend" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Web Application.frontend" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -343,28 +381,34 @@
       <option name="project" value="LOCAL" />
       <updated>1477365735729</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加phpQuery">
+      <created>1481104239114</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1481104239114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25775194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26550388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -389,65 +433,297 @@
     </option>
     <MESSAGE value="权限管理初始化" />
     <MESSAGE value="权限管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="权限管理" />
+    <MESSAGE value="添加phpQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加phpQuery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="60" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/advanced/frontend/controllers/BlogController.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="91" />
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$this-&gt;getId()" language="PHP" />
+      </configuration>
       <configuration name="PhpWebAppRunConfigurationType">
-        <watch expression="$mail-&gt;send()" language="PHP" />
+        <watch expression="$this-&gt;getId()" language="PHP" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/Behavior.php">
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/BlogController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1037594" vertical-offset="1102" max-vertical-offset="2162">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2875">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/Controller.php">
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/di/ServiceLocator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34887218" vertical-offset="412" max-vertical-offset="11914">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8962406" vertical-offset="301" max-vertical-offset="1449">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/components/PermissionBehavior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.84375" vertical-offset="600" max-vertical-offset="1403">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.900307" vertical-offset="22417" max-vertical-offset="23069">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.3611111" vertical-offset="1296" max-vertical-offset="5980">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/common/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27669173" vertical-offset="621" max-vertical-offset="4393">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.5849624" vertical-offset="2" max-vertical-offset="4485">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#32#40#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/models/Blog.php">
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1789473" vertical-offset="784" max-vertical-offset="1449">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1858" max-vertical-offset="7521">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34969324" vertical-offset="7178" max-vertical-offset="23069">
+          <caret line="334" column="20" selection-start-line="334" selection-start-column="20" selection-end-line="334" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/UserFrontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35276073" vertical-offset="0" max-vertical-offset="3450">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#35#43#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/SignupForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31748468" vertical-offset="0" max-vertical-offset="1472">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#53#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15337424" vertical-offset="3120" max-vertical-offset="4600">
+          <caret line="166" column="31" selection-start-line="166" selection-start-column="31" selection-end-line="166" selection-end-column="31" />
+          <folding>
+            <element signature="e#39#47#0#PHP" expanded="true" />
+            <element signature="e#496#1293#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8125" vertical-offset="94" max-vertical-offset="759">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="false" />
+            <element signature="e#172#185#0#PHP" expanded="false" />
+            <element signature="e#307#1340#0#PHP" expanded="false" />
+            <element signature="e#1374#1772#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6917293" vertical-offset="0" max-vertical-offset="989">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#125#156#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/common/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061662197" vertical-offset="0" max-vertical-offset="2208">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="e#32#40#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88190186" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3115124" vertical-offset="0" max-vertical-offset="443">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/dist/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="113482">
+          <caret line="0" column="119" selection-start-line="0" selection-start-column="119" selection-end-line="0" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/build/less/AdminLTE.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08726415" vertical-offset="32" max-vertical-offset="1541">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/web/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65030676" vertical-offset="15814" max-vertical-offset="17641">
+          <caret line="714" column="0" selection-start-line="714" selection-start-column="0" selection-end-line="714" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/web/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.39110428" vertical-offset="554" max-vertical-offset="4784">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/rbac/ManagerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7924812" vertical-offset="2344" max-vertical-offset="5727">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/RbacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5879699" vertical-offset="48" max-vertical-offset="1265">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+          <folding>
+            <element signature="e#1357#1373#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/RbacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1875" vertical-offset="207" max-vertical-offset="1288">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#133#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.09375" vertical-offset="490" max-vertical-offset="1679">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#268#1389#0#PHP" expanded="false" />
+            <element signature="e#1430#1585#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/user-backend/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.27969924" vertical-offset="186" max-vertical-offset="851">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7285276" vertical-offset="475" max-vertical-offset="1127">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/resetPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24511278" vertical-offset="163" max-vertical-offset="828">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38345864" vertical-offset="255" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/blog/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.41104296" vertical-offset="268" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/blog/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/blog/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/blog/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3112782" vertical-offset="207" max-vertical-offset="1058">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/web/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34969324" vertical-offset="3498" max-vertical-offset="13225">
+          <caret line="169" column="20" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -455,347 +731,257 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/views/user-backend/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/models/UserBackend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.303681" vertical-offset="2545" max-vertical-offset="3197">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/RbacController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.09375" vertical-offset="232" max-vertical-offset="1173">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/ContactForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2481203" vertical-offset="830" max-vertical-offset="1495">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/PasswordResetRequestForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.518797" vertical-offset="345" max-vertical-offset="1656">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/ResetPasswordForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1413534" vertical-offset="759" max-vertical-offset="1564">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/SignupForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63496935" vertical-offset="276" max-vertical-offset="1449">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/说明(AdminLTE).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23538011" vertical-offset="0" max-vertical-offset="684">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.03125" vertical-offset="0" max-vertical-offset="29072">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.34375" vertical-offset="483" max-vertical-offset="35926">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/starter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.56135" vertical-offset="4347" max-vertical-offset="9453">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/almasaeed2010/adminlte/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.10676692" vertical-offset="71" max-vertical-offset="736">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0406015" vertical-offset="692" max-vertical-offset="1357">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6255639" vertical-offset="1104" max-vertical-offset="5520">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/yii">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17293233" vertical-offset="0" max-vertical-offset="665">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="161">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1265">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14135338" vertical-offset="1700" max-vertical-offset="6716">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php">
+    <entry file="file://$PROJECT_DIR$/advanced/backend/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="851">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="e#39#69#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/models/LoginForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.10676692" vertical-offset="1520" max-vertical-offset="2185">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding>
-            <element signature="e#32#40#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/phpQuery/phpQuery/Zend/Uri/Http.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3112782" vertical-offset="759" max-vertical-offset="1449">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/Yii.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.59375" vertical-offset="2553" max-vertical-offset="4968">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.13834587" vertical-offset="0" max-vertical-offset="665">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/BaseController.php">
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/dmstr/yii2-adminlte-asset/web/AdminLteAsset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.02255639" vertical-offset="15" max-vertical-offset="989">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#125#156#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/bin/markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3956">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1425619688000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425619688000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425619688000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1425619688000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/extensions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2139">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.16992481" vertical-offset="25" max-vertical-offset="1242">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-bootstrap/ActiveField.php">
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/BaseYii.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10582822" vertical-offset="0" max-vertical-offset="9591">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/phpquery-master/phpQuery/phpQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07055215" vertical-offset="1242" max-vertical-offset="30774">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24210526" vertical-offset="0" max-vertical-offset="1081">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/phpquery-master/demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.21875" vertical-offset="324" max-vertical-offset="1817">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.96875" vertical-offset="1911" max-vertical-offset="2576">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/base/ErrorHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3611111" vertical-offset="1756" max-vertical-offset="7521">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6875" vertical-offset="521" max-vertical-offset="1725">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24210526" vertical-offset="0" max-vertical-offset="690">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/mail/MessageInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56390977" vertical-offset="4363" max-vertical-offset="5060">
-          <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55338347" vertical-offset="0" max-vertical-offset="665">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.625" vertical-offset="0" max-vertical-offset="897">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/common/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4375" vertical-offset="0" max-vertical-offset="276">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/phpQuery/phpQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31441718" vertical-offset="738" max-vertical-offset="30774">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/ezyang/htmlpurifier/library/HTMLPurifier.auto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.21165644" vertical-offset="0" max-vertical-offset="12351">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087218046" vertical-offset="172" max-vertical-offset="874">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.27669173" vertical-offset="0" max-vertical-offset="874">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/WebSiteCollectionController.php">
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/UserBackend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.023006136" vertical-offset="475" max-vertical-offset="1334">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state vertical-scroll-proportion="-0.0030674846" vertical-offset="1520" max-vertical-offset="3450">
+          <caret line="68" column="72" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/SignupForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5613497" vertical-offset="1221" max-vertical-offset="1955">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/web/assets/a283b20a/datatables/jquery.dataTables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="339505" max-vertical-offset="343965">
+          <caret line="14773" column="9" selection-start-line="14773" selection-start-column="9" selection-end-line="14773" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/web/assets/b3bc25f0/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.118421" vertical-offset="1449" max-vertical-offset="7958">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <element signature="e#172#185#0#PHP" expanded="true" />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1481609639660" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7037594" vertical-offset="2693" max-vertical-offset="5497">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25920245" vertical-offset="5903" max-vertical-offset="6555">
+          <caret line="264" column="81" selection-start-line="264" selection-start-column="81" selection-end-line="264" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/main-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2075188" vertical-offset="0" max-vertical-offset="782">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8992481" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.8125" vertical-offset="1083" max-vertical-offset="1748">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/web/YiiAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/web/assets/b3bc25f0/js/tes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32998565" vertical-offset="0" max-vertical-offset="697">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.90625" vertical-offset="0" max-vertical-offset="667">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/说明(AdminLTE).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3026316" vertical-offset="0" max-vertical-offset="684">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/user-backend/user-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6875" vertical-offset="1165" max-vertical-offset="2024">
+          <caret line="53" column="103" selection-start-line="53" selection-start-column="103" selection-end-line="53" selection-end-column="103" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1481621957489" expanded="true" signature="643:4981" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="653:753" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="808:4950" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="896:4939" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="926:1492" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="965:1287" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="1509:3311" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="1532:3292" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="1673:3265" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="1705:2498" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="1927:1939" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="2094:2106" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="2270:2282" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="2438:2450" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="2530:2991" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="2641:2924" placeholder="..." />
+            <marker date="1481621957489" expanded="true" signature="3023:3236" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/UserBackendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27669173" vertical-offset="138" max-vertical-offset="966">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

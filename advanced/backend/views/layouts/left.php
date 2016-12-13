@@ -31,6 +31,7 @@
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     ['label' => '菜单二', 'options' => ['class' => 'header']],
+                    ['label' => '用户列表', 'icon' => 'fa fa-file-code-o', 'url' => ['/user-backend/user-list']],
                     ['label' => 'Gii 生成', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
                     ['label' => 'Debug 调试', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
                     ['label' => '登录', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],

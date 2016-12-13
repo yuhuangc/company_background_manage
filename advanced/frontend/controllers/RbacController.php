@@ -22,7 +22,7 @@ class RbacController extends Controller{
         $auth = Yii::$app->authManager;
 
         // 一、添加 权限
-        $permissionName = 'site/blog';
+        $permissionName = 'site/index';
         $permission = $auth->getPermission($permissionName);
         if(empty($permission)){
             $permission = $auth->createPermission($permissionName);

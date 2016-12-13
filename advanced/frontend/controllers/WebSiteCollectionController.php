@@ -16,6 +16,9 @@ use yii\web\Controller;
 
 class WebSiteCollectionController extends Controller{
 
+    /**
+     * 网易新闻
+     */
     public function actionGet163News()
     {
         phpQuery::newDocumentFile('http://news.163.com');
@@ -45,9 +48,19 @@ class WebSiteCollectionController extends Controller{
         die();*/
     }
 
+    /**
+     * 新浪新闻
+     */
     public function actionGetSinaNews()
     {
-        phpQuery::newDocumentFile('http://news.sina.cn/?r=nc&vt=4');
-        $title = pq(".mod_important_news.none h5")->text();
+        phpQuery::newDocumentFile('https://sina.cn/');
+        $content = pq("#j_yaowen_scroll");
+        pq($content)->find("dl")->each(function($item){
+            echo $item->textContent."<br>";
+        });
+        pq($content)->find("a")->each(function($item){
+            echo pq($item)->attr('href')."<br>";
+        });
+        //echo $content;
     }
 }

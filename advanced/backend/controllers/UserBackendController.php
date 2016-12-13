@@ -3,6 +3,7 @@
 namespace backend\controllers;
 
 use backend\models\SignupForm;
+use backend\models\UserBackend;
 use Yii;
 
 class UserBackendController extends BaseController
@@ -10,6 +11,12 @@ class UserBackendController extends BaseController
     public function actionIndex()
     {
         return $this->render('index');
+    }
+
+    public function actionUserList()
+    {
+        $models = UserBackend::find()->all();
+        return $this->render('user-list',['list' => $models]);
     }
 
     public function actionSignup()
