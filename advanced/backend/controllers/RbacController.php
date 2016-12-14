@@ -24,7 +24,7 @@ class RbacController extends Controller{
         $auth = Yii::$app->authManager;
 
         // 一、添加 权限
-        $permissionName = 'user-backend/user-list';
+        $permissionName = 'user-backend/auth-child-list';
         $permission = $auth->getPermission($permissionName);
         if(empty($permission)){
             $permission = $auth->createPermission($permissionName);

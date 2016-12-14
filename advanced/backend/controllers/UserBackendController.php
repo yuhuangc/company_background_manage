@@ -19,6 +19,11 @@ class UserBackendController extends BaseController
         return $this->render('user-list',['list' => $models]);
     }
 
+    public function actionAuthChildList()
+    {
+        return $this->render('auth-child-list');
+    }
+
     public function actionSignup()
     {
         $model = new SignupForm();
