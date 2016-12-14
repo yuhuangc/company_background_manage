@@ -4,6 +4,7 @@ namespace backend\models;
 
 use Yii;
 use yii\base\NotSupportedException;
+use yii\filters\RateLimitInterface;
 use yii\web\IdentityInterface;
 
 /**
@@ -17,7 +18,7 @@ use yii\web\IdentityInterface;
  * @property string $created_at
  * @property string $updated_at
  */
-class UserBackend extends \yii\db\ActiveRecord implements IdentityInterface
+class UserBackend extends \yii\db\ActiveRecord implements IdentityInterface,RateLimitInterface
 {
 
     /**
@@ -42,6 +43,40 @@ class UserBackend extends \yii\db\ActiveRecord implements IdentityInterface
             [['email'], 'unique'],
         ];
     }
+
+    #region 速率限制
+    /**
+     * 返回允许的请求的最大数目及时间，例如，[100, 600] 表示在600秒内最多100次的API调用。
+     * @param \yii\web\Request $request
+     * @param \yii\base\Action $action
+     */
+    public function getRateLimit($request, $action)
+    {
+        return [5,20];
+    }
+
+    /**
+     * 返回剩余的允许的请求和相应的UNIX时间戳数 当最后一次速率限制检查时
+     * @param \yii\web\Request $request
+     * @param \yii\base\Action $action
+     */
+    public function loadAllowance($request, $action)
+    {
+
+    }
+
+    /**
+     * 保存允许剩余的请求数和当前的UNIX时间戳
+     * @param \yii\web\Request $request
+     * @param \yii\base\Action $action
+     * @param int $allowance
+     * @param int $timestamp
+     */
+    public function saveAllowance($request, $action, $allowance, $timestamp)
+    {
+
+    }
+    #endregion
 
     /**
      * @inheritdoc
